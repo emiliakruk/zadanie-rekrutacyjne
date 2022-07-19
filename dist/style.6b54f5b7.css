@@ -161,7 +161,29 @@ p {
 
 /*PHOTO GALLERY*/
 .photo-gallery {
-  padding: 40PX;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.wrapper {
+  max-width: 1366px;
+}
+
+.wrapper .gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery .image {
+  width: 33.3333333333%;
+}
+
+.gallery .image img {
+  width: 100%;
+  vertical-align: middle;
 }
 
 /*FOOTER*/
