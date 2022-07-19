@@ -10,6 +10,10 @@ body {
   letter-spacing: 0.7px;
 }
 
+p {
+  color: #575756;
+}
+
 /* HERO */
 .hero {
   width: 100%;
@@ -123,6 +127,7 @@ body {
   gap: 30px;
 }
 .article-text-box--2-cols-paragraph {
+  font-weight: 300;
   line-height: 1.75;
   letter-spacing: 0px;
 }
@@ -140,6 +145,7 @@ body {
   gap: 12px;
 }
 .another-article-text-box-content {
+  font-weight: 300;
   line-height: 1.8;
   letter-spacing: -0.09px;
 }
@@ -151,6 +157,20 @@ body {
 .another-article-text-without-image {
   line-height: 1.8;
   letter-spacing: -0.09px;
+}
+
+/*PHOTO GALLERY*/
+.photo-gallery {
+  padding: 40PX;
+}
+
+/*FOOTER*/
+.footer {
+  background-color: #53686c;
+  padding: 25px;
+}
+.footer-text {
+  color: white;
 }
 
 /*# sourceMappingURL=/style.6b54f5b7.css.map */

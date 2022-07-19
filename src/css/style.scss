@@ -12,6 +12,10 @@ body {
   letter-spacing: 0.7px;
 }
 
+p{
+  color: #575756;
+}
+
 /* HERO */
 .hero {
   width: 100%;
@@ -121,6 +125,7 @@ body {
     gap: 30px;
 
     &-paragraph {
+      font-weight: 300;
       line-height: 1.75;
       letter-spacing: 0px;
     }
@@ -141,16 +146,33 @@ body {
     gap: 12px;
 
     &-content {
+      font-weight: 300;
       line-height: 1.8;
       letter-spacing: -0.09px;
-      &-right{
+      &-right {
         margin-top: -7px;
         margin-bottom: 19px;
       }
     }
   }
 }
-.another-article-text-without-image{
+.another-article-text-without-image {
   line-height: 1.8;
   letter-spacing: -0.09px;
+}
+
+
+/*PHOTO GALLERY*/
+
+.photo-gallery{
+  padding: 40PX;
+}
+
+/*FOOTER*/
+.footer {
+  background-color: $title-color;
+  padding: 25px;
+  &-text {
+    color: white;
+  }
 }
