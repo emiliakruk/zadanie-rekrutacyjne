@@ -1,6 +1,106 @@
-body {
+* {
   margin: 0;
-  background-color: #666;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.7px;
+}
+
+.hero {
+  width: 100%;
+  height: 760px;
+  background: url("/seacost.f00bfe8b.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 64px;
+}
+
+.hero a {
+  color: #000000;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.nav .menu {
+  color: #000000;
+  font-size: 25px;
+  padding-top: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.menu a {
+  padding-left: 72px;
+  color: black;
+}
+
+.hero-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 57%;
+  margin-right: 0;
+  color: white;
+  margin-top: 230px;
+  width: 448px;
+}
+.hero-box-heading-primary {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: 0.6px;
+  margin-right: 70px;
+}
+.hero-box-describe-cta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+  font-size: 21px;
+}
+.hero-box-describe-cta-describe {
+  width: 250px;
+  line-height: 1.4;
+}
+.hero-box-describe-cta-cta-btn {
+  width: 176px;
+  border: 4px solid white;
+  height: 51px;
+  border-radius: 25px;
+  display: flex;
+  font-size: 21px;
+  text-transform: uppercase;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 800;
+  text-decoration: none;
+}
+.hero-box-describe-cta a {
+  color: white;
+  line-height: 1.1;
 }
 
 /*# sourceMappingURL=/style.6b54f5b7.css.map */
