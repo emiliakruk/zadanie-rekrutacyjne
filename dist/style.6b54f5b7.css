@@ -10,6 +10,7 @@ body {
   letter-spacing: 0.7px;
 }
 
+/* HERO */
 .hero {
   width: 100%;
   height: 760px;
@@ -78,10 +79,11 @@ body {
   justify-content: space-between;
   margin-top: 18px;
   font-size: 21px;
+  letter-spacing: 0.4px;
 }
 .hero-box-describe-cta-describe {
   width: 250px;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 .hero-box-describe-cta-cta-btn {
   width: 176px;
@@ -89,7 +91,7 @@ body {
   height: 51px;
   border-radius: 25px;
   display: flex;
-  font-size: 21px;
+  font-size: 22px;
   text-transform: uppercase;
   justify-content: center;
   padding: 10px;
@@ -101,6 +103,54 @@ body {
 .hero-box-describe-cta a {
   color: white;
   line-height: 1.1;
+}
+
+/*SECTION TITLE*/
+.section-title {
+  padding: 35px 0 60px;
+}
+
+.article-heading-secondary {
+  font-size: 50px;
+  font-weight: 700;
+  color: #53686c;
+  margin-bottom: 34px;
+  letter-spacing: 0px;
+}
+.article-text-box--2-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.article-text-box--2-cols-paragraph {
+  line-height: 1.75;
+  letter-spacing: 0px;
+}
+
+/*ANOTHER TITLE*/
+.another-title {
+  background-color: #f9f9f9;
+  padding: 35px 0 60px;
+  font-size: 16px;
+}
+
+.another-article-text-box {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 12px;
+}
+.another-article-text-box-content {
+  line-height: 1.8;
+  letter-spacing: -0.09px;
+}
+.another-article-text-box-content-right {
+  margin-top: -7px;
+  margin-bottom: 19px;
+}
+
+.another-article-text-without-image {
+  line-height: 1.8;
+  letter-spacing: -0.09px;
 }
 
 /*# sourceMappingURL=/style.6b54f5b7.css.map */
